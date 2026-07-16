@@ -1,0 +1,5 @@
+//in JavaScript, variables were traditionally declared using the var keyword. It is not used in contemporary programming due to certain problems with scope and complicated operations.
+var a = "TpointTech";  
+console.log(a);  
+ let a = "shlok"
+conssole.log(a);
