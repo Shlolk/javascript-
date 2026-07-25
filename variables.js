@@ -36,5 +36,9 @@ console.log(myvar); // Syntax Error
 //hosting behaviour of the var - When using the var keyword, the variable declaration
 //is hoisted to the top of its scope, but the initialization remains in place. If you try to access a var variable before it's declared and initialized, it will return undefined.
 
+console.log(myVariable); // Output: undefined  
+var myVariable = 10;  
+console.log(myVariable); // Output: 10  
+
 
 
