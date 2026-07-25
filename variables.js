@@ -3,3 +3,10 @@ var a = "TpointTech";
 console.log(a);  
  let a = "shlok"
 conssole.log(a);
+
+
+if (true) {  
+    let grade = "A";   
+    console.log(grade);   
+}  
+console.log(grade)
