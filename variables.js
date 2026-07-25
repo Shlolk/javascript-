@@ -31,4 +31,10 @@ console.log(myvar); // TypeError
 const myvar = "third";  
 console.log(myvar); // Syntax Error
 
+//hosting behavior of the var , let and const 
+
+//hosting behaviour of the var - When using the var keyword, the variable declaration
+//is hoisted to the top of its scope, but the initialization remains in place. If you try to access a var variable before it's declared and initialized, it will return undefined.
+
+
 
