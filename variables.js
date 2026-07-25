@@ -10,3 +10,10 @@ if (true) {
     console.log(grade);   
 }  
 console.log(grade)
+
+// Re-declaring Variables with var, let, and const
+var a = 10;
+var a = 30;
+console.log(a);
+
+//
