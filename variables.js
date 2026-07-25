@@ -19,5 +19,16 @@ console.log(a);
 //re-deleacring varible with let 
 let b = 20;
  b = 30;
-cinsole.log(b) // the otput: 30 
+cinsole.log(b) // the otput: 30
+
+// re-directing the variable with const 
+const myvar = "first";  
+console.log(myvar); // first   
+// reassignment  
+myvar = "second";  
+console.log(myvar); // TypeError  
+// redeclaration  
+const myvar = "third";  
+console.log(myvar); // Syntax Error
+
 
