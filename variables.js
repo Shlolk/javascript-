@@ -16,4 +16,8 @@ var a = 10;
 var a = 30;
 console.log(a);
 
-//
+//re-deleacring varible with let 
+let b = 20;
+ b = 30;
+cinsole.log(b) // the otput: 30 
+
