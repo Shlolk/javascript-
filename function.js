@@ -22,3 +22,8 @@ function mydemo2(){
     console.log(word);  
 }  
 console.log(word);  
+function introduce(city, country) {  
+  console.log(this.name + " from " + city + ", " + country);  
+}  
+const person = { name: "Taylor Swift" };  
+introduce.apply(person, ["New York", "USA"]);
