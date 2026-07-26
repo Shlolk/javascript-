@@ -27,3 +27,10 @@ function introduce(city, country) {
 }  
 const person = { name: "Taylor Swift" };  
 introduce.apply(person, ["New York", "USA"]);
+
+function greet() {  
+  console.log("Hi, " + this.name);  
+}  
+const person = { name: "Tom" };  
+const greetgreetClara = greet.bind(person);  
+greetClara(); 
