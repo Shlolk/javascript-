@@ -34,3 +34,10 @@ function greet() {
 const person = { name: "Tom" };  
 const greetgreetClara = greet.bind(person);  
 greetClara(); 
+
+
+function greet() {  
+  console.log("Hello, " + this.name);  
+}  
+const person = { name: "Taylor" };  
+greet.call(person);
