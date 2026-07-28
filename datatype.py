@@ -12,3 +12,7 @@ let b = 'Single quotes work fine';
 console.log(b);   
 let c = `can embed ${a}`;  
 console.log(c);  
+let p = true;  
+console.log(p);    
+let q = false;  
+console.log(q); 
