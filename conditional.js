@@ -9,4 +9,4 @@ document.write("the value of a is even");
 }
 else {
   document.write("the value of a is odd);
-                 }
+     }
